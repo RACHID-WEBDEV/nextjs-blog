@@ -79,6 +79,7 @@ const FeaturedPosts = () => {
                     infinite
                     customLeftArrow={customLeftArrow}
                     customRightArrow={customRightArrow}
+                    loop
                     responsive={responsive}
                     itemClass="px-4"
                >
