@@ -8,7 +8,7 @@ import { grpahCMSImageLoader } from "../util";
 const PostCard = ({ post }) => {
      // console.log(post);
      return (
-          <div className="bg-white sm:p-8 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+          <div className="bg-white sm:p-4 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
                <div className="relative shadow-md inline-block w-full h-60 lg:h-80 mb-6">
                     <Image
                          unoptimized
