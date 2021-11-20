@@ -8,7 +8,7 @@ import { grpahCMSImageLoader } from "../util";
 const PostCard = ({ post }) => {
      // console.log(post);
      return (
-          <div className="bg-white sm:p-4 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+          <div className="bg-white sm:p-8 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
                <div className="relative shadow-md inline-block w-full h-60 lg:h-80 mb-6">
                     <Image
                          unoptimized
@@ -20,7 +20,7 @@ const PostCard = ({ post }) => {
                     />
                </div>
 
-               <p className="transition duration-700 text-center mb-8 cursor-pointer hover:text-[#042c54] lg:text-3xl md:text-xl font-semibold  ">
+               <p className="transition duration-700 text-center mb-8 cursor-pointer hover:text-[#042c54] text-2xl font-semibold  ">
                     <Link href={`/post/${post.slug}`}>{post.title}</Link>
                </p>
                <div className="block lg:flex text-center items-center justify-center mb-8 w-full">

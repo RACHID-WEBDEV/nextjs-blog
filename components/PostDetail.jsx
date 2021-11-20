@@ -112,7 +112,7 @@ const PostDetail = ({ post }) => {
                                    </span>
                               </div>
                          </div>
-                         <h1 className="mb-8 lg:text-3xl md:text-xl font-semibold">
+                         <h1 className="mb-8 text-2xl  font-semibold">
                               {post.title}
                          </h1>
                          {post.content.raw.children.map((typeObj, index) => {
